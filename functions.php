@@ -164,7 +164,8 @@ function bootstrap3_comment_form( $args ) {
 
 function moje_css_js() {
 
-    // wp_enqueue_style( 'style-name', get_stylesheet_uri() );
+// W tym pliku dodałem defoltowe core Wordpress
+    wp_enqueue_style( 'default-style', get_stylesheet_uri() );
 
 // Pamiętaj że style dodajesz dzięki funkcji w headerze strony wp_head();
 
