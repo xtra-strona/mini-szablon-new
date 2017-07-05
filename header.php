@@ -60,7 +60,7 @@ if ($image == true): ?>
     <?php if(has_header_image()) : ?>
 
           <div class="parallax-window" data-parallax="scroll" data-image-src="<?php header_image(); ?>">
-                                              <!-- TUTAJ DODALIŚMY NASZĄ FUNKCJĘ -->
+
               <h1 class="page-header-img">
                   <?php bloginfo('name'); ?>
                   <small><?php bloginfo('description'); ?></small>
@@ -70,7 +70,7 @@ if ($image == true): ?>
        <br>
 
        <?php else : ?>
-                                 <!-- TUTAJ DODALIŚMY NASZĄ FUNKCJĘ -->
+       
          <h1 class="page-header">
              <?php bloginfo('name'); ?>
              <small><?php bloginfo('description'); ?></small>
