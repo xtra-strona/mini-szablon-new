@@ -43,7 +43,7 @@
 						comments_template();
 					endif; ?>
 
-  <?php  endwhile; ?>
+  <?php endwhile; ?>
 
         </div>
 
